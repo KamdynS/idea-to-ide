@@ -1,6 +1,6 @@
 
-import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
+import WaitlistForm from "./WaitlistForm";
 
 const CTA = () => {
   return (
@@ -13,15 +13,15 @@ const CTA = () => {
         className="max-w-4xl mx-auto text-center bg-[#123524]/5 rounded-2xl p-12 backdrop-blur-sm"
       >
         <h2 className="text-3xl md:text-4xl font-mono font-bold mb-4">
-          Ready to Enhance Your AI Development?
+          Join Our Beta Waitlist
         </h2>
         <p className="text-muted-foreground font-mono mb-8 max-w-2xl mx-auto">
-          Create documentation that speaks directly to AI coding assistants.
-          Turn your development intentions into clear, actionable context.
+          Sign up to get updates sent directly to your email and participate in our Beta program.
+          Help shape the future of AI-powered development documentation.
         </p>
-        <Button size="lg" className="font-mono">
-          Get Started Now
-        </Button>
+        <div className="max-w-md mx-auto">
+          <WaitlistForm />
+        </div>
       </motion.div>
     </section>
   );
