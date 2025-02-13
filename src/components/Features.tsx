@@ -27,7 +27,7 @@ const features = [
 
 const Features = () => {
   return (
-    <section className="py-24 px-4 bg-black/5">
+    <section className="py-24 px-4 bg-[#123524]/5">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -50,9 +50,9 @@ const Features = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
-              className="p-6 rounded-xl bg-white/50 backdrop-blur-sm border border-black/5 hover:border-black/10 transition-all duration-300"
+              className="p-6 rounded-xl bg-white/50 backdrop-blur-sm border border-[#123524]/10 hover:border-[#123524]/20 transition-all duration-300"
             >
-              <div className="mb-4 text-primary">{feature.icon}</div>
+              <div className="mb-4 text-[#123524]">{feature.icon}</div>
               <h3 className="text-xl font-mono font-semibold mb-2">{feature.title}</h3>
               <p className="text-muted-foreground font-mono text-sm">{feature.description}</p>
             </motion.div>

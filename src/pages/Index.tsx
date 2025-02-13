@@ -6,7 +6,7 @@ import CTA from "@/components/CTA";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
+    <div className="min-h-screen bg-gradient-to-b from-white via-[#123524]/5 to-gray-50">
       <Hero />
       <Features />
       <HowItWorks />

@@ -47,8 +47,8 @@ const HowItWorks = () => {
               viewport={{ once: true }}
               className="relative"
             >
-              <div className="p-6 rounded-xl bg-white/50 backdrop-blur-sm border border-black/5 hover:border-black/10 transition-all duration-300">
-                <span className="text-4xl font-mono font-bold text-black/10 mb-4 block">
+              <div className="p-6 rounded-xl bg-white/50 backdrop-blur-sm border border-[#123524]/10 hover:border-[#123524]/20 transition-all duration-300">
+                <span className="text-4xl font-mono font-bold text-[#123524]/20 mb-4 block">
                   {step.number}
                 </span>
                 <h3 className="text-xl font-mono font-semibold mb-2">{step.title}</h3>
@@ -56,7 +56,7 @@ const HowItWorks = () => {
               </div>
               {index < steps.length - 1 && (
                 <div className="hidden md:block absolute top-1/2 -right-4 transform -translate-y-1/2">
-                  <ArrowRight className="w-8 h-8 text-black/20" />
+                  <ArrowRight className="w-8 h-8 text-[#123524]/20" />
                 </div>
               )}
             </motion.div>

@@ -10,7 +10,7 @@ const CTA = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
         viewport={{ once: true }}
-        className="max-w-4xl mx-auto text-center bg-black/5 rounded-2xl p-12 backdrop-blur-sm"
+        className="max-w-4xl mx-auto text-center bg-[#123524]/5 rounded-2xl p-12 backdrop-blur-sm"
       >
         <h2 className="text-3xl md:text-4xl font-mono font-bold mb-4">
           Ready to Transform Your Ideas?
