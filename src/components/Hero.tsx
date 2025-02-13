@@ -11,8 +11,8 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <span className="px-4 py-2 rounded-full bg-black/5 text-sm font-mono mb-4 inline-block">
-            Bridging Ideas and IDEs
+          <span className="px-4 py-2 rounded-full bg-[#123524]/5 text-sm font-mono mb-4 inline-block">
+            Bridging Ideas and AI Development
           </span>
         </motion.div>
         
@@ -22,9 +22,9 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-4xl md:text-6xl font-mono font-bold leading-tight"
         >
-          Transform Your Ideas Into
+          Transform Your Intent Into
           <br />
-          <span className="text-primary">Production-Ready Code</span>
+          <span className="text-primary">Context-Rich Documentation</span>
         </motion.h1>
 
         <motion.p
@@ -33,8 +33,8 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="text-xl text-muted-foreground font-mono max-w-2xl mx-auto"
         >
-          Generate all the necessary contextual files for your project in a consistent format.
-          From concept to codebase, seamlessly.
+          Generate comprehensive documentation that AI coding assistants understand.
+          From project architecture to ticket context, we speak their language.
         </motion.p>
 
         <motion.div
@@ -44,10 +44,10 @@ const Hero = () => {
           className="flex flex-col sm:flex-row gap-4 justify-center mt-8"
         >
           <Button size="lg" className="font-mono">
-            Get Started
+            Start Documenting
           </Button>
           <Button size="lg" variant="outline" className="font-mono">
-            View Documentation
+            View Examples
           </Button>
         </motion.div>
       </div>

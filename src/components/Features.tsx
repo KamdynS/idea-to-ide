@@ -1,27 +1,27 @@
 
 import { motion } from "framer-motion";
-import { Terminal, FileCode, Workflow, Zap } from "lucide-react";
+import { FileCode, GitBranch, Database, MessageSquare } from "lucide-react";
 
 const features = [
   {
     icon: <FileCode className="h-10 w-10" />,
-    title: "Contextual File Generation",
-    description: "Automatically generate all necessary project files with consistent formatting and structure.",
+    title: "Specialized Documentation",
+    description: "Generate ARCHITECTURE.md, ROADMAP.md, type definitions, and database schemas through focused AI interactions.",
   },
   {
-    icon: <Terminal className="h-10 w-10" />,
-    title: "IDE Integration",
-    description: "Seamlessly works with your favorite IDE, providing a familiar development environment.",
+    icon: <MessageSquare className="h-10 w-10" />,
+    title: "Purpose-Built Chatbots",
+    description: "Each documentation type has its own specialized AI assistant, trained for optimal results in its domain.",
   },
   {
-    icon: <Workflow className="h-10 w-10" />,
-    title: "Project Scaffolding",
-    description: "Quick setup of project architecture with best practices and modern development patterns.",
+    icon: <GitBranch className="h-10 w-10" />,
+    title: "Codebase Context",
+    description: "Analyze existing projects to create rich documentation that helps AI tools understand your specific tickets.",
   },
   {
-    icon: <Zap className="h-10 w-10" />,
-    title: "Instant Development",
-    description: "Start coding immediately with pre-configured development environments and tooling.",
+    icon: <Database className="h-10 w-10" />,
+    title: "System Design",
+    description: "Generate comprehensive Mermaid diagrams and database schemas that visualize your system architecture.",
   },
 ];
 

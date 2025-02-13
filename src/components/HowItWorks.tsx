@@ -5,18 +5,18 @@ import { ArrowRight } from "lucide-react";
 const steps = [
   {
     number: "01",
-    title: "Define Your Project",
-    description: "Describe your project requirements and architecture needs.",
+    title: "Share Your Intent",
+    description: "Describe what you want to build or the ticket you're working on.",
   },
   {
     number: "02",
-    title: "Generate Files",
-    description: "Our AI generates all necessary project files with proper structure.",
+    title: "Choose Documentation",
+    description: "Select which specialized AI assistant you need for your specific documentation.",
   },
   {
     number: "03",
-    title: "Customize & Deploy",
-    description: "Fine-tune the generated code and deploy your project.",
+    title: "Generate & Use",
+    description: "Get AI-ready documentation to supercharge your development with tools like Cursor or Cody.",
   },
 ];
 

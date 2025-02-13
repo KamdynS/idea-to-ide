@@ -13,11 +13,11 @@ const CTA = () => {
         className="max-w-4xl mx-auto text-center bg-[#123524]/5 rounded-2xl p-12 backdrop-blur-sm"
       >
         <h2 className="text-3xl md:text-4xl font-mono font-bold mb-4">
-          Ready to Transform Your Ideas?
+          Ready to Enhance Your AI Development?
         </h2>
         <p className="text-muted-foreground font-mono mb-8 max-w-2xl mx-auto">
-          Start building your next project with our AI-powered development assistant.
-          No more boilerplate code, just pure innovation.
+          Create documentation that speaks directly to AI coding assistants.
+          Turn your development intentions into clear, actionable context.
         </p>
         <Button size="lg" className="font-mono">
           Get Started Now
