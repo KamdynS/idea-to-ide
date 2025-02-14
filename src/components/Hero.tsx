@@ -1,6 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -43,12 +44,16 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.6 }}
           className="flex flex-col sm:flex-row gap-4 justify-center mt-8"
         >
-          <Button size="lg" className="font-mono">
-            Start Collaborating
-          </Button>
-          <Button size="lg" variant="outline" className="font-mono">
-            View Integration
-          </Button>
+          <Link to="/start">
+            <Button size="lg" className="font-mono">
+              Start Collaborating
+            </Button>
+          </Link>
+          <Link to="/integration">
+            <Button size="lg" variant="outline" className="font-mono">
+              View Integration
+            </Button>
+          </Link>
         </motion.div>
       </div>
     </section>
