@@ -5,23 +5,23 @@ import { FileCode, GitBranch, Database, MessageSquare } from "lucide-react";
 const features = [
   {
     icon: <FileCode className="h-10 w-10" />,
-    title: "Specialized Documentation",
-    description: "Generate ARCHITECTURE.md, ROADMAP.md, type definitions, and database schemas through focused AI interactions.",
+    title: "Pattern Recognition",
+    description: "Our AI weaves your ideas into specialized documentation patterns: ARCHITECTURE.md, ROADMAP.md, and more.",
   },
   {
     icon: <MessageSquare className="h-10 w-10" />,
-    title: "Purpose-Built Chatbots",
-    description: "Each documentation type has its own specialized AI assistant, trained for optimal results in its domain.",
+    title: "Contextual Threading",
+    description: "Each documentation type has its own AI assistant, expertly weaving context into every document.",
   },
   {
     icon: <GitBranch className="h-10 w-10" />,
-    title: "Codebase Context",
-    description: "Analyze existing projects to create rich documentation that helps AI tools understand your specific tickets.",
+    title: "Seamless Integration",
+    description: "Perfectly intertwine your existing codebase context with new development tickets and documentation.",
   },
   {
     icon: <Database className="h-10 w-10" />,
-    title: "System Design",
-    description: "Generate comprehensive Mermaid diagrams and database schemas that visualize your system architecture.",
+    title: "Visual Patterns",
+    description: "Generate intricate system diagrams and schemas that visualize your architecture's fabric.",
   },
 ];
 
@@ -38,7 +38,7 @@ const Features = () => {
         >
           <h2 className="text-3xl font-mono font-bold mb-4">Features</h2>
           <p className="text-muted-foreground font-mono">
-            Everything you need to transform ideas into production-ready code
+            Every thread you need to weave ideas into production-ready code
           </p>
         </motion.div>
 

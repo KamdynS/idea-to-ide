@@ -12,7 +12,7 @@ const Hero = () => {
           transition={{ duration: 0.5 }}
         >
           <span className="px-4 py-2 rounded-full bg-[#123524]/5 text-sm font-mono mb-4 inline-block">
-            Bridging Ideas and AI Development
+            Weaving Ideas into Development Reality
           </span>
         </motion.div>
         
@@ -22,9 +22,9 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-4xl md:text-6xl font-mono font-bold leading-tight"
         >
-          Transform Your Intent Into
+          Transform Your Thoughts Into
           <br />
-          <span className="text-primary">Context-Rich Documentation</span>
+          <span className="text-primary">Seamless Documentation</span>
         </motion.h1>
 
         <motion.p
@@ -33,8 +33,8 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="text-xl text-muted-foreground font-mono max-w-2xl mx-auto"
         >
-          Generate comprehensive documentation that AI coding assistants understand.
-          From project architecture to ticket context, we speak their language.
+          ThoughtWeave intertwines your development ideas into comprehensive documentation 
+          that AI coding assistants understand perfectly.
         </motion.p>
 
         <motion.div
@@ -44,10 +44,10 @@ const Hero = () => {
           className="flex flex-col sm:flex-row gap-4 justify-center mt-8"
         >
           <Button size="lg" className="font-mono">
-            Start Documenting
+            Start Weaving
           </Button>
           <Button size="lg" variant="outline" className="font-mono">
-            View Examples
+            See Examples
           </Button>
         </motion.div>
       </div>

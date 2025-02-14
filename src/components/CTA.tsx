@@ -13,11 +13,11 @@ const CTA = () => {
         className="max-w-4xl mx-auto text-center bg-[#123524]/5 rounded-2xl p-12 backdrop-blur-sm"
       >
         <h2 className="text-3xl md:text-4xl font-mono font-bold mb-4">
-          Join Our Beta Waitlist
+          Join ThoughtWeave Beta
         </h2>
         <p className="text-muted-foreground font-mono mb-8 max-w-2xl mx-auto">
-          Sign up to get updates sent directly to your email and participate in our Beta program.
-          Help shape the future of AI-powered development documentation.
+          Be among the first to experience how ThoughtWeave transforms development ideas into powerful documentation.
+          Help us shape the future of AI-assisted development.
         </p>
         <div className="max-w-md mx-auto">
           <WaitlistForm />

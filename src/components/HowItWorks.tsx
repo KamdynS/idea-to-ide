@@ -5,18 +5,18 @@ import { ArrowRight } from "lucide-react";
 const steps = [
   {
     number: "01",
-    title: "Share Your Intent",
-    description: "Describe what you want to build or the ticket you're working on.",
+    title: "Share Your Vision",
+    description: "Tell us about your development ideas, tickets, or project plans.",
   },
   {
     number: "02",
-    title: "Choose Documentation",
-    description: "Select which specialized AI assistant you need for your specific documentation.",
+    title: "Select Your Pattern",
+    description: "Choose the documentation type that best fits your needs, from architecture to tickets.",
   },
   {
     number: "03",
-    title: "Generate & Use",
-    description: "Get AI-ready documentation to supercharge your development with tools like Cursor or Cody.",
+    title: "Watch It Weave",
+    description: "See your thoughts transform into AI-ready documentation that powers tools like Cursor or Cody.",
   },
 ];
 
@@ -33,7 +33,7 @@ const HowItWorks = () => {
         >
           <h2 className="text-3xl font-mono font-bold mb-4">How It Works</h2>
           <p className="text-muted-foreground font-mono">
-            Simple steps to transform your idea into production-ready code
+            Three simple steps to weave your vision into reality
           </p>
         </motion.div>
 
