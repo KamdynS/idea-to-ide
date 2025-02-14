@@ -1,27 +1,27 @@
 
 import { motion } from "framer-motion";
-import { FileCode, GitBranch, Database, MessageSquare } from "lucide-react";
+import { FileCode, GitBranch, MessageSquare, Users } from "lucide-react";
 
 const features = [
   {
-    icon: <FileCode className="h-10 w-10" />,
-    title: "Pattern Recognition",
-    description: "Our AI weaves your ideas into specialized documentation patterns: ARCHITECTURE.md, ROADMAP.md, and more.",
+    icon: <Users className="h-10 w-10" />,
+    title: "Unified Communication",
+    description: "Bridge the gap between product vision and engineering implementation through clear, context-rich documentation.",
   },
   {
     icon: <MessageSquare className="h-10 w-10" />,
-    title: "Contextual Threading",
-    description: "Each documentation type has its own AI assistant, expertly weaving context into every document.",
+    title: "Natural Language to Tickets",
+    description: "Convert product discussions into well-structured Jira tickets that maintain business context while providing technical clarity.",
   },
   {
     icon: <GitBranch className="h-10 w-10" />,
-    title: "Seamless Integration",
-    description: "Perfectly intertwine your existing codebase context with new development tickets and documentation.",
+    title: "Seamless Jira Integration",
+    description: "Automatically create and update Jira tickets that speak both PM and engineering languages.",
   },
   {
-    icon: <Database className="h-10 w-10" />,
-    title: "Visual Patterns",
-    description: "Generate intricate system diagrams and schemas that visualize your architecture's fabric.",
+    icon: <FileCode className="h-10 w-10" />,
+    title: "Role-Based Views",
+    description: "Get documentation tailored to your role - business outcomes for PMs, technical specs for engineers.",
   },
 ];
 
@@ -38,7 +38,7 @@ const Features = () => {
         >
           <h2 className="text-3xl font-mono font-bold mb-4">Features</h2>
           <p className="text-muted-foreground font-mono">
-            Every thread you need to weave ideas into production-ready code
+            Transform how your product and engineering teams collaborate
           </p>
         </motion.div>
 

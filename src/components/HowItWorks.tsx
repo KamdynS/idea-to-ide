@@ -5,19 +5,29 @@ import { ArrowRight } from "lucide-react";
 const steps = [
   {
     number: "01",
-    title: "Share Your Vision",
-    description: "Tell us about your development ideas, tickets, or project plans.",
+    title: "Share Your Context",
+    description: "Describe your project, feature, or task in natural language - whether you're starting fresh or adding to existing work.",
   },
   {
     number: "02",
-    title: "Select Your Pattern",
-    description: "Choose the documentation type that best fits your needs, from architecture to tickets.",
+    title: "Choose Your Path",
+    description: "Select your documentation pattern: new project setup, feature addition, or single ticket creation.",
   },
   {
     number: "03",
-    title: "Watch It Weave",
-    description: "See your thoughts transform into AI-ready documentation that powers tools like Cursor or Cody.",
+    title: "Review Project Context",
+    description: "ThoughtWeave analyzes your codebase and existing documentation to understand the technical landscape.",
   },
+  {
+    number: "04",
+    title: "Get Role-Perfect Docs",
+    description: "Receive documentation tailored to your role - business outcomes for PMs, technical specs for engineers.",
+  },
+  {
+    number: "05",
+    title: "Sync with Jira",
+    description: "Watch as your documentation transforms into well-structured Jira tickets that both teams understand.",
+  }
 ];
 
 const HowItWorks = () => {
@@ -33,11 +43,11 @@ const HowItWorks = () => {
         >
           <h2 className="text-3xl font-mono font-bold mb-4">How It Works</h2>
           <p className="text-muted-foreground font-mono">
-            Three simple steps to weave your vision into reality
+            From conversation to collaboration in five simple steps
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8">
           {steps.map((step, index) => (
             <motion.div
               key={index}
@@ -55,7 +65,7 @@ const HowItWorks = () => {
                 <p className="text-muted-foreground font-mono text-sm">{step.description}</p>
               </div>
               {index < steps.length - 1 && (
-                <div className="hidden md:block absolute top-1/2 -right-4 transform -translate-y-1/2">
+                <div className="hidden lg:block absolute top-1/2 -right-4 transform -translate-y-1/2">
                   <ArrowRight className="w-8 h-8 text-[#123524]/20" />
                 </div>
               )}

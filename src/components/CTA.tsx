@@ -16,8 +16,8 @@ const CTA = () => {
           Join ThoughtWeave Beta
         </h2>
         <p className="text-muted-foreground font-mono mb-8 max-w-2xl mx-auto">
-          Be among the first to experience how ThoughtWeave transforms development ideas into powerful documentation.
-          Help us shape the future of AI-assisted development.
+          Be among the first to experience how ThoughtWeave bridges the gap between product vision and engineering execution. 
+          Transform your team's collaboration today.
         </p>
         <div className="max-w-md mx-auto">
           <WaitlistForm />

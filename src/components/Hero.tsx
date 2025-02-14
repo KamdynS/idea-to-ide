@@ -12,7 +12,7 @@ const Hero = () => {
           transition={{ duration: 0.5 }}
         >
           <span className="px-4 py-2 rounded-full bg-[#123524]/5 text-sm font-mono mb-4 inline-block">
-            Weaving Ideas into Development Reality
+            Unifying Product Vision with Engineering Reality
           </span>
         </motion.div>
         
@@ -22,9 +22,9 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-4xl md:text-6xl font-mono font-bold leading-tight"
         >
-          Transform Your Thoughts Into
+          Bridge the Gap Between
           <br />
-          <span className="text-primary">Seamless Documentation</span>
+          <span className="text-primary">PM Vision and Engineering Execution</span>
         </motion.h1>
 
         <motion.p
@@ -33,8 +33,8 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="text-xl text-muted-foreground font-mono max-w-2xl mx-auto"
         >
-          ThoughtWeave intertwines your development ideas into comprehensive documentation 
-          that AI coding assistants understand perfectly.
+          ThoughtWeave transforms natural conversations into precise Jira tickets and documentation 
+          that both product managers and engineers understand perfectly.
         </motion.p>
 
         <motion.div
@@ -44,10 +44,10 @@ const Hero = () => {
           className="flex flex-col sm:flex-row gap-4 justify-center mt-8"
         >
           <Button size="lg" className="font-mono">
-            Start Weaving
+            Start Collaborating
           </Button>
           <Button size="lg" variant="outline" className="font-mono">
-            See Examples
+            View Integration
           </Button>
         </motion.div>
       </div>
