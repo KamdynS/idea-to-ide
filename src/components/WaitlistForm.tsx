@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -9,6 +8,7 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { toast } from "sonner";
+import { supabase } from "@/lib/supabase";
 
 const formSchema = z.object({
   email: z.string().email("Please enter a valid email address"),
@@ -33,12 +33,25 @@ const WaitlistForm = () => {
   const onSubmit = async (data: FormData) => {
     setIsSubmitting(true);
     try {
-      // Here you would typically send this to your backend
-      console.log("Form submitted:", data);
+      const { data: result, error } = await supabase.rpc('join_waitlist', {
+        p_email: data.email,
+        p_role: data.role
+      });
+
+      if (error) {
+        if (error.message.includes('already exists')) {
+          toast.error("This email is already on our waitlist!");
+        } else {
+          toast.error("Something went wrong. Please try again.");
+        }
+        return;
+      }
+
       toast.success("Thanks for joining our waitlist! We'll be in touch soon.");
       form.reset();
     } catch (error) {
       toast.error("Something went wrong. Please try again.");
+      console.error('Waitlist submission error:', error);
     } finally {
       setIsSubmitting(false);
     }

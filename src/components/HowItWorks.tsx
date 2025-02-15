@@ -25,8 +25,8 @@ const steps = [
   },
   {
     number: "05",
-    title: "Sync with Jira",
-    description: "Watch as your documentation transforms into well-structured Jira tickets that both teams understand.",
+    title: "Sync with your team",
+    description: "Watch as your conversation transforms into well-structured documentation that both teams understand.",
   }
 ];
 
