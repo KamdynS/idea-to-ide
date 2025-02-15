@@ -34,7 +34,7 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="text-xl text-muted-foreground font-mono max-w-2xl mx-auto"
         >
-          ThoughtWeave transforms natural conversations into precise Jira tickets and documentation 
+          ThoughtWeave transforms natural conversations into precise documentation or Jira tickets
           that both product managers and engineers understand perfectly.
         </motion.p>
 
